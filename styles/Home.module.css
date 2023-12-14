@@ -3,12 +3,26 @@
 }
 
 .AppHeader {
-  background-color: #282c34;
+  background-color: #262731;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
+}
+
+/* New class for the image container */
+.imageBox {
+  background-image: url('/themarketfoxx_Gandalph_the_Grey_with_Goku_inspired_by_Jean-Mich_f88859af-cc6f-4894-a87c-70e95a4e3c0b.PNG');
+  background-size: cover;
+  background-position: center;
+  /* Define the size of the box */
+  width: 300px; 
+  text-align: center;/* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  /* Optional styles */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add a shadow for depth */
+  border-radius: 10px; /* Rounded corners */
 }
